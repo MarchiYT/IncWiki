@@ -1,0 +1,132 @@
+@font-face{
+    src: url(../fonts/HOOG0554.TTF);
+    font-family: HOGOH;
+}
+
+@font-face{
+    src: url(../fonts/HOOG0553.TTF);
+    font-family: HOGOA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    z-index: 1;
+}
+
+body{
+    font-family: HOGOA;
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+    font-family: HOGOA;
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    font-family: HOGOH;
+}
+
+#blob {
+    background-color: white;
+    height: 34vmax;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: linear-gradient(to right, purple, mediumpurple);
+    animation: rotate 20s infinite;
+    opacity: 0.8;
+    z-index: 0;
+    filter: blur(200px);
+  }
+
+.videocontainer{
+    width: 1366px;
+    height: 768px;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    max-width: 100%;
+    padding: 5px 5px 5px 5px;
+    border-bottom: 1px solid purple;
+}
+
+.wrapper .sidenav{
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 15vw;
+    height: 100vh;
+    background: white;
+}
+
+.wrapper .sidenav ul li{
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 0, 200, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.wrapper .maincontent{
+    color: white;
+    width: 85vw;
+    margin-left: 15vw;
+}
+
+#image-track > .image{
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+#image-track{
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-37.5%, 135%);
+    user-select: none;
+}
+
+section{
+    height: 100vh;
+    padding: 30px;
+}
+
+#section1{
+    background: linear-gradient(to right, #8f32a8, #d883d4);
+}
+
+#section2{
+    background: linear-gradient(to right, #8f32a8, #d883d4);
+}
+
+#section3{
+    background: linear-gradient(to right, #8f32a8, #d883d4);
+}
+
+#section4{
+    background: linear-gradient(to right, #8f32a8, #d883d4);
+}
+
+#section5{
+    background: linear-gradient(to right, #8f32a8, #d883d4);
+}
+
+#section6{
+    background: linear-gradient(to right, #8f32a8, #d883d4);
+}
